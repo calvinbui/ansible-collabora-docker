@@ -1,7 +1,7 @@
 [![Build Status](https://travis-ci.com/calvinbui/ansible-collabora-docker.svg?branch=master)](https://travis-ci.com/calvinbui/ansible-collabora-docker)
 ![GitHub release](https://img.shields.io/github/release/calvinbui/ansible-collabora-docker.svg)
-![Ansible Quality Score](https://img.shields.io/ansible/quality/42298.svg)
-![Ansible Role](https://img.shields.io/ansible/role/d/42298.svg)
+![Ansible Quality Score](https://img.shields.io/ansible/quality/42362.svg)
+![Ansible Role](https://img.shields.io/ansible/role/d/42362.svg)
 
 # Ansible Collabora
 
