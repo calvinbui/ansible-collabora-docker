@@ -15,9 +15,6 @@
       image: "{{ collabora_image }}"
       state: started
       published_ports: "{{ collabora_ports }}"
-      volumes:
-        - "{{ collabora_logs_directory }}:/var/log/collabora"
-        - "{{ collabora_certificates_directory }}:/var/www/collabora/Data"
       env: "{{ collabora_environment_variables }}"
 
 - name: Create Collabora container
