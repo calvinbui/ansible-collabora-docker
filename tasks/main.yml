@@ -1,13 +1,5 @@
 ---
 
-- name: Create Collabora directories
-  file:
-    path: "{{ item }}"
-    state: directory
-  loop:
-    - "{{ collabora_logs_directory }}"
-    - "{{ collabora_certificates_directory }}"
-
 - name: Set Docker container parameters
   set_fact:
     collabora_container_parameters:
